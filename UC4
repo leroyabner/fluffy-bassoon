@@ -1,0 +1,12 @@
+public class OOPSBannerApp{
+	public static void main(String[] args){
+	String [] l= new String[7];
+	l[0]=System.out.println(String.join(" ","   ***   ","   ***   ","****** ","   *****"));
+	l[1]=System.out.println(String.join(" "," **   ** "," **   ** ","**   **"," **     "));
+	l[2]=System.out.println(String.join(" ","**     **","**     **","**   **","**      "));
+	l[3]=System.out.println(String.join(" ","**     **","**     **","*****  ","  ***** "));
+	l[4]=System.out.println(String.join(" ","**     **","**     **","**     ","      **"));
+	l[5]=System.out.println(String.join(" "," **   ** "," **   ** ","**     "," **   **"));
+	l[6]=System.out.println(String.join(" ","   ***   ","   ***   ","**     ","  ***** "));
+for (String line:l){
+System.out.println(line);}}}
